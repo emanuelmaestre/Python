@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>ex011.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #629755; font-style: italic;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+.s3 { color: #6897bb;}
+.s4 { color: #cc7832;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+ex011.py</font>
+</center></td></tr></table>
+<pre><span class="s0">&quot;&quot;&quot;        Exercício - 11 ( Pintando Paredes ) 
+Faça um programa que leia a largura e a altura de uma parede para pinta-lá... &quot;&quot;&quot;</span>
+<span class="s2">&quot;&quot;&quot;...sabendo que cada lata de tinta pinta uma area de 2m².&quot;&quot;&quot;</span>
+
+<span class="s1">larg = float(input(</span><span class="s2">'Largura da parede: '</span><span class="s1">))</span>
+<span class="s1">alt = float(input(</span><span class="s2">'Altura da parede: '</span><span class="s1">))</span>
+<span class="s1">area = larg * alt</span>
+<span class="s1">tinta = area / </span><span class="s3">2</span>
+<span class="s1">print(</span><span class="s2">'Sua parede tem a dimensão de {:.0f}x{:.0f} m e sua área é de {:.0f}m².'</span><span class="s1">.format(larg</span><span class="s4">, </span><span class="s1">alt</span><span class="s4">, </span><span class="s1">area))</span>
+<span class="s1">print(</span><span class="s2">'Para pintar essa parede,você precisará de {}L de tinta.'</span><span class="s1">.format(tinta))</span>
+</pre>
+</body>
+</html>
