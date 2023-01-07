@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>ex015.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #629755; font-style: italic;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+.s3 { color: #6897bb;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+ex015.py</font>
+</center></td></tr></table>
+<pre><span class="s0">&quot;&quot;&quot;        Exercício - 15 ( Aluguel de Carros ) 
+Escreva um programa que pergunte a quantidade de KM percorrido por um carro alugado e a quantidade...  &quot;&quot;&quot;</span>
+<span class="s2">&quot;&quot;&quot;&quot;...de dias pelos quais ele foi alugado. Calcule o preço a pagar sabendo que o carro custa R$ 60,00... &quot;&quot;&quot;</span>
+<span class="s2">&quot;&quot;&quot;&quot;... p/ dia e R$ 0,15 p/ KM rodado.&quot;&quot;&quot;</span>
+
+<span class="s1">dias = int(input(</span><span class="s2">'Quantos dias alugados ? '</span><span class="s1">))</span>
+<span class="s1">km = float(input(</span><span class="s2">'Quantos Km rodados ? '</span><span class="s1">))</span>
+<span class="s1">pago = (dias * </span><span class="s3">60</span><span class="s1">) + (km * </span><span class="s3">0.15</span><span class="s1">)</span>
+<span class="s1">print(</span><span class="s2">'O total a pagar é de R$ {:.2f}'</span><span class="s1">.format(pago))</span>
+</pre>
+</body>
+</html>
