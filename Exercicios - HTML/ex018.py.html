@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>ex018.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #629755; font-style: italic;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+.s3 { color: #cc7832;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+ex018.py</font>
+</center></td></tr></table>
+<pre><span class="s0">&quot;&quot;&quot;        Exercício - 18 ( Seno, Cosseno, Tangente ) 
+Faça um programa que leia um angulo qualquer e mostre na tela o valor do...  &quot;&quot;&quot;</span>
+<span class="s2">&quot;&quot;&quot;...seno,cosseno e tangente desse angulo. ' &quot;&quot;&quot;</span>
+
+<span class="s3">import </span><span class="s1">math</span>
+<span class="s1">angulo = float(input(</span><span class="s2">'Digite o ângulo que você deseja: ' </span><span class="s1">))</span>
+
+<span class="s1">seno = math.sin(math.radians(angulo))</span>
+<span class="s1">print(</span><span class="s2">'O Angulo de {} tem o seno de {:.2f}'</span><span class="s1">.format(angulo</span><span class="s3">, </span><span class="s1">seno))</span>
+
+<span class="s1">cosseno = math.cos(math.radians(angulo))</span>
+<span class="s1">print(</span><span class="s2">'O Angulo de {} tem o cosseno de {:.2f}'</span><span class="s1">.format(angulo</span><span class="s3">, </span><span class="s1">cosseno))</span>
+
+<span class="s1">tangente = math.tan(math.radians(angulo))</span>
+<span class="s1">print(</span><span class="s2">'O ângulo de {} tem a tangente de {:.2f}'</span><span class="s1">.format(angulo</span><span class="s3">, </span><span class="s1">tangente))</span>
+</pre>
+</body>
+</html>
