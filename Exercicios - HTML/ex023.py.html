@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>ex023.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #629755; font-style: italic;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+.s3 { color: #6897bb;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+ex023.py</font>
+</center></td></tr></table>
+<pre><span class="s0">&quot;&quot;&quot;        Exercício - 23 ( Separando digitos de um número ) 
+Faça um programa que leia um número de 0 a 9999 e mostre nas telas cada um dos digitos separados.  &quot;&quot;&quot;</span>
+<span class="s2">&quot;&quot;&quot; Ex: Digite um número: 1834&quot;&quot;&quot;</span>
+<span class="s2">&quot;&quot;&quot;Unidade: 4 / Dezena: 3 / Centena: 8 / Milhar: 1&quot;&quot;&quot;</span>
+
+<span class="s1">num = int(input(</span><span class="s2">'Informe um número:'</span><span class="s1">))</span>
+<span class="s1">u = num // </span><span class="s3">1 </span><span class="s1">% </span><span class="s3">10</span>
+<span class="s1">d = num // </span><span class="s3">10 </span><span class="s1">% </span><span class="s3">10</span>
+<span class="s1">c = num // </span><span class="s3">100 </span><span class="s1">% </span><span class="s3">10</span>
+<span class="s1">m = num // </span><span class="s3">1000 </span><span class="s1">% </span><span class="s3">10</span>
+<span class="s1">print(</span><span class="s2">'Analisando o número {}'</span><span class="s1">.format(num))</span>
+<span class="s1">print(</span><span class="s2">'Unidade: {}'</span><span class="s1">.format(u))</span>
+<span class="s1">print(</span><span class="s2">'Dezena: {}'</span><span class="s1">.format(d))</span>
+<span class="s1">print(</span><span class="s2">'Centena: {}'</span><span class="s1">.format(c))</span>
+<span class="s1">print(</span><span class="s2">'Milhar: {}'</span><span class="s1">.format(m))</span>
+</pre>
+</body>
+</html>
