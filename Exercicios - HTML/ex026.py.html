@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>ex026.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #629755; font-style: italic;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+.s3 { color: #6897bb;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+ex026.py</font>
+</center></td></tr></table>
+<pre><span class="s0">&quot;&quot;&quot;        Exercício - 26 ( Primeira e ultima ocorrência de uma string  ) 
+Faça um programa que leia uma frase pelo teclado e mostre: 
+- Quantas Vezes aparece a letra 'A' . 
+- Em que posição ela aparece a primeira vez ? 
+- Em que posição ela aparece a ultima vez ? &quot;&quot;&quot;</span>
+
+<span class="s1">frase = str(input(</span><span class="s2">'Digite uma frase: '</span><span class="s1">)).upper().strip()</span>
+<span class="s1">print(</span><span class="s2">'A Letra A aparece {} vezes na frase'</span><span class="s1">.format(frase.count(</span><span class="s2">'A'</span><span class="s1">)))</span>
+<span class="s1">print(</span><span class="s2">'A primeira letra A apareceu na posição {}'</span><span class="s1">.format(frase.find(</span><span class="s2">'A'</span><span class="s1">) + </span><span class="s3">1</span><span class="s1">))</span>
+<span class="s1">print(</span><span class="s2">'A ultima letra A apareceu na posição {}'</span><span class="s1">.format(frase.find(</span><span class="s2">'A'</span><span class="s1">) + </span><span class="s3">1</span><span class="s1">))</span>
+</pre>
+</body>
+</html>
