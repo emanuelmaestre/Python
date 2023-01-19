@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>ex029.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #629755; font-style: italic;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+.s3 { color: #cc7832;}
+.s4 { color: #6897bb;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+ex029.py</font>
+</center></td></tr></table>
+<pre><span class="s0">&quot;&quot;&quot;        Exercício - 29 ( Radar ) 
+Escreva um programa que leia a velocidade de um carro. Se ele ultrapassar 80 km/h, 
+ mostre uma mensagem dizendo que foi multado. A multa vai custar R$ 7,00 por cada KM acima do limite&quot;&quot;&quot;</span>
+
+<span class="s1">velocidade = float(input(</span><span class="s2">'Qual a velocidade atual do carro ? '</span><span class="s1">))</span>
+
+<span class="s3">if </span><span class="s1">velocidade &gt; </span><span class="s4">80</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">'MULTADO! Você excedeu o limete permitido que é de 80 Km/h'</span><span class="s1">)</span>
+
+    <span class="s1">multa = (velocidade - </span><span class="s4">80</span><span class="s1">) * </span><span class="s4">7</span>
+
+    <span class="s1">print(</span><span class="s2">'Você deve pagar uma multa de R$ {:.2f}!'</span><span class="s1">.format(multa))</span>
+    <span class="s1">print(</span><span class="s2">'Tenha um Bom dia! Dirija com segurança!'</span><span class="s1">)</span>
+</pre>
+</body>
+</html>
