@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>ex034.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #629755; font-style: italic;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+.s3 { color: #cc7832;}
+.s4 { color: #6897bb;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+ex034.py</font>
+</center></td></tr></table>
+<pre><span class="s0">&quot;&quot;&quot;        Exercício - 34 ( Maior e Menor Valores ) 
+Escreva um programa que pergunte o salário de um funcionário e calcule o valor do seu aumento. 
+- Para salário superiores a R$ 1 250,00 ,calcule um aumento de 10%. 
+- Para os inferiores ou iguais, o aumento é de 15%.&quot;&quot;&quot;</span>
+
+<span class="s1">salario = float(input(</span><span class="s2">'Qual é o salário do funcionário ? R$ '</span><span class="s1">))</span>
+<span class="s3">if </span><span class="s1">salario &lt;= </span><span class="s4">1250</span><span class="s1">:</span>
+    <span class="s1">novo = salario + (salario * </span><span class="s4">15 </span><span class="s1">/ </span><span class="s4">100</span><span class="s1">)</span>
+<span class="s3">else</span><span class="s1">:</span>
+    <span class="s1">novo = salario + (salario * </span><span class="s4">10 </span><span class="s1">/ </span><span class="s4">100</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">'Quem ganhava R${:.2f} passa a ganhar {:.2f} agora!'</span><span class="s1">.format(salario</span><span class="s3">, </span><span class="s1">novo))</span>
+</pre>
+</body>
+</html>
